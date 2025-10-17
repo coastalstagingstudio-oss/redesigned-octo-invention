@@ -221,33 +221,55 @@ p.muted{color:#475569}
           </div>
         </div>
       </section>
+{/* Worldwide */}
+<section id="markets" className="section">
+  <div className="container">
+    <div style={{ textAlign: "center", marginBottom: 20 }}>
+      <div className="eyebrow">Worldwide</div>
+      <h2>We Serve Clients Globally</h2>
+      <p className="muted">
+        Remote virtual staging delivered anywhere — tailored to local buyer preferences.
+      </p>
+    </div>
 
-      {/* Worldwide */}
-      <section id="markets" className="section">
-        <div className="container">
-          <div style={{ textAlign:"center", marginBottom:20 }}>
-            <div className="eyebrow">Worldwide</div>
-            <h2>We Serve Clients Globally</h2>
-            <p className="muted">Remote virtual staging delivered anywhere — tailored to local buyer preferences.</p>
-          </div>
-        <div className="grid grid-2">
-          <div className="card" style={{ padding:20 }}>
-            <div style={{ color:coastal.navy, fontWeight:700, fontSize:18 }}>How it works, anywhere:</div>
-            <ul className="muted" style={{ marginTop:10, paddingLeft:18 }}>
-              <li>• Upload your room photos</li>
-              <li>• Choose style(s) and package</li>
-              <li>• We stage and deliver within 12–24 hours</li>
-            </ul>
-            <p className="muted" style={{ marginTop:10 }}>We adapt styles to your region — coastal, modern city lofts, mountain, desert, and more.</p>
-          </div>
-          <div className="card" style={{ padding:20, display:"flex", alignItems:"center", justifyContent:"center" }}>
-            <div style={{ width:"100%", aspectRatio:"16/9", borderRadius:18, background:"linear-gradient(135deg,#dbeafe,#cffafe,#99f6e4)", display:"flex", alignItems:"center", justifyContent:"center", color:coastal.deep, fontWeight:700 }}>
-              🌍 Worldwide Virtual Staging
-           </div>
-  </div>
-</div>       
+    <div className="grid grid-2">
+      <div className="card" style={{ padding: 20 }}>
+        <div style={{ color: coastal.navy, fontWeight: 700, fontSize: 18 }}>
+          How it works, anywhere:
+        </div>
+        <ul className="muted" style={{ marginTop: 10, paddingLeft: 18 }}>
+          <li>• Upload your room photos</li>
+          <li>• Choose style(s) and package</li>
+          <li>• We stage and deliver within 24–48 hours</li>
+        </ul>
+        <p className="muted" style={{ marginTop: 10 }}>
+          We adapt styles to your region — coastal, modern city lofts, mountain, desert, and more.
+        </p>
+      </div>
+
+      <div className="card" style={{ padding: 20, display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div
+          style={{
+            width: "100%",
+            aspectRatio: "16/9",
+            borderRadius: 18,
+            background: "linear-gradient(135deg,#dbeafe,#cffafe,#99f6e4)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            color: coastal.deep,
+            fontWeight: 700,
+          }}
+        >
+          🌍 Worldwide Virtual Staging
+        </div>
+      </div>
+    </div>  {/* closes .grid */}
+  </div>    {/* closes .container */}
 </section>
+
 {/* Order & Pay */}
+    
 <section id="order" className="section" style={{ background: coastal.sand }}>
   <div className="container">
           <div style={{ textAlign:"center", marginBottom:20 }}>
