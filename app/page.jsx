@@ -231,7 +231,6 @@ p.muted{color:#475569}
         Remote virtual staging delivered anywhere — tailored to local buyer preferences.
       </p>
     </div>
-
     <div className="grid grid-2">
       <div className="card" style={{ padding: 20 }}>
         <div style={{ color: coastal.navy, fontWeight: 700, fontSize: 18 }}>
@@ -262,13 +261,11 @@ p.muted{color:#475569}
           }}
         >
           🌍 Worldwide Virtual Staging
-           </div> 
         </div>
       </div>
     </div>  {/* closes .grid */}
   </div>    {/* closes .container */}
 </section>
-
 {/* Order & Pay */}
 <section id="order" className="section" style={{ background: coastal.sand }}>
   <div className="container">
