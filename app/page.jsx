@@ -252,15 +252,16 @@ p.muted{color:#475569}
             width: "100%",
             aspectRatio: "16/9",
             borderRadius: 18,
-            background: "linear-gradient(135deg,#dbeafe,#cffafe,#99f6e4)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            color: coastal.deep,
-            fontWeight: 700,
-          }}
-           🌍 Worldwide Virtual Staging
-        </div> {/* closes inner styled box */}
+          background: "linear-gradient(135deg,#dbeafe,#cffafe,#99f6e4)",
+display: "flex",
+alignItems: "center",
+justifyContent: "center",
+color: coastal.deep,
+fontWeight: 700,
+}}>
+  🌍 Worldwide Virtual Staging
+</div>  {/* closes inner styled box */}
+  
       </div>   {/* closes .card */}
     </div>     {/* closes .grid */}
   </div>       {/* closes .container */}
