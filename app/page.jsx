@@ -236,7 +236,7 @@ p.muted{color:#475569}
             <ul className="muted" style={{ marginTop:10, paddingLeft:18 }}>
               <li>• Upload your room photos</li>
               <li>• Choose style(s) and package</li>
-              <li>• We stage and deliver within 24–48 hours</li>
+              <li>• We stage and deliver within 12–24 hours</li>
             </ul>
             <p className="muted" style={{ marginTop:10 }}>We adapt styles to your region — coastal, modern city lofts, mountain, desert, and more.</p>
           </div>
@@ -245,8 +245,7 @@ p.muted{color:#475569}
               🌍 Worldwide Virtual Staging
            </div>
   </div>
-</div>
- </div>         
+</div>       
 </section>
 {/* Order & Pay */}
 <section id="order" className="section" style={{ background: coastal.sand }}>
