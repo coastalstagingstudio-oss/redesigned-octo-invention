@@ -3,6 +3,18 @@
 import React, { useMemo, useState } from "react";
 
 const coastal = { teal:"#0E9BA4", deep:"#0A6D74", sea:"#E6F3F3", sand:"#F6EFE7", navy:"#173A5E" };
+/public/portfolio/
+  living1-before.jpg
+  living1-after.jpg
+  dining1-before.jpg
+  dining1-after.jpg
+  bedroom1-before.jpg
+  bedroom1-after.jpg
+  study1-before.jpg
+  study1-after.jpg
+
+/app/portfolio-grid-snippet.jsx   ← copy-paste block for your Portfolio grid
+/README.txt                       ← quick steps + notes
 
 // Stripe Payment Links (live)
 const STRIPE = {
