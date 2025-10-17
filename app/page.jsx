@@ -259,7 +259,6 @@ p.muted{color:#475569}
             color: coastal.deep,
             fontWeight: 700,
           }}
-        >
           🌍 Worldwide Virtual Staging
         </div>
       </div>
