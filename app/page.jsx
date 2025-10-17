@@ -248,7 +248,7 @@ p.muted{color:#475569}
         </div>
       </section>
       {/* Order & Pay */}
-      <section id="order" className="section" style={{ background:coastal.sand }}>
+     <section id="order" className="section" style={{ background: coastal.sand }}>
         <div className="container">
           <div style={{ textAlign:"center", marginBottom:20 }}>
             <div className="eyebrow">Order</div>
