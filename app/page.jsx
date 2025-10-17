@@ -243,13 +243,13 @@ p.muted{color:#475569}
           <div className="card" style={{ padding:20, display:"flex", alignItems:"center", justifyContent:"center" }}>
             <div style={{ width:"100%", aspectRatio:"16/9", borderRadius:18, background:"linear-gradient(135deg,#dbeafe,#cffafe,#99f6e4)", display:"flex", alignItems:"center", justifyContent:"center", color:coastal.deep, fontWeight:700 }}>
               🌍 Worldwide Virtual Staging
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Order & Pay */}
-     <section id="order" className="section" style={{ background: coastal.sand }}>
-        <div className="container">
+           </div>
+  </div>
+</div>
+</section>
+{/* Order & Pay */}
+<section id="order" className="section" style={{ background: coastal.sand }}>
+  <div className="container">
           <div style={{ textAlign:"center", marginBottom:20 }}>
             <div className="eyebrow">Order</div>
             <h2>Place an Order & Pay Securely</h2>
