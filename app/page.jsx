@@ -259,13 +259,14 @@ p.muted{color:#475569}
             color: coastal.deep,
             fontWeight: 700,
           }}
-          🌍 Worldwide Virtual Staging
-        </div>
-      </div>
-    </div>  {/* closes .grid */}
-  </div>    {/* closes .container */}
+           🌍 Worldwide Virtual Staging
+        </div> {/* closes inner styled box */}
+      </div>   {/* closes .card */}
+    </div>     {/* closes .grid */}
+  </div>       {/* closes .container */}
 </section>
-{/* Order & Pay */}
+
+{/* Order & Pay*/}
 <section id="order" className="section" style={{ background: coastal.sand }}>
   <div className="container">
 
