@@ -266,13 +266,12 @@ p.muted{color:#475569}
       </div>
     </div>  {/* closes .grid */}
   </div>    {/* closes .container */}
-  </div> {/* closes outer wrapper */}
 </section>
 
 {/* Order & Pay */}
-    
 <section id="order" className="section" style={{ background: coastal.sand }}>
   <div className="container">
+
           <div style={{ textAlign:"center", marginBottom:20 }}>
             <div className="eyebrow">Order</div>
             <h2>Place an Order & Pay Securely</h2>
