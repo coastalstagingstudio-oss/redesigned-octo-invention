@@ -262,6 +262,7 @@ p.muted{color:#475569}
           }}
         >
           🌍 Worldwide Virtual Staging
+           </div> 
         </div>
       </div>
     </div>  {/* closes .grid */}
