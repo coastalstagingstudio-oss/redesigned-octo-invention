@@ -266,6 +266,7 @@ p.muted{color:#475569}
       </div>
     </div>  {/* closes .grid */}
   </div>    {/* closes .container */}
+  </div> {/* closes outer wrapper */}
 </section>
 
 {/* Order & Pay */}
