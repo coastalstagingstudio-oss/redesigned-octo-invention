@@ -3,15 +3,6 @@
 import React, { useMemo, useState } from "react";
 
 const coastal = { teal:"#0E9BA4", deep:"#0A6D74", sea:"#E6F3F3", sand:"#F6EFE7", navy:"#173A5E" };
-/public/portfolio/
-  living1-before.jpg
-  living1-after.jpg
-  dining1-before.jpg
-  dining1-after.jpg
-  bedroom1-before.jpg
-  bedroom1-after.jpg
-  study1-before.jpg
-  study1-after.jpg
 
 /app/portfolio-grid-snippet.jsx   ← copy-paste block for your Portfolio grid
 /README.txt                       ← quick steps + notes
@@ -103,29 +94,39 @@ p.muted{color:#475569}
       </section>
 
       {/* Portfolio (placeholders) */}
-      <section id="portfolio" className="section" style={{ background:coastal.sand }}>
-        <div className="container">
-          <div style={{ textAlign:"center", marginBottom:20 }}>
-            <div className="eyebrow">Portfolio</div>
-            <h2>Before & After Showcase</h2>
-            <p className="muted">Coastal to Modern and beyond.</p>
-          </div>
-          <div className="grid grid-3">
-            {["Coastal","Modern","Farmhouse","Boho","Industrial","Luxury"].map((s,idx)=>(
-              <div key={idx} className="card" style={{ overflow:"hidden" }}>
-                <div style={{ padding:16, background:"#f1f5f9" }}>
-                  <div className="muted" style={{ fontSize:12, marginBottom:8 }}>Before</div>
-                  <div style={{ aspectRatio:"16/9", background:"#e2e8f0", borderRadius:12, display:"flex", alignItems:"center", justifyContent:"center", color:"#64748b" }}>Empty Room</div>
-                </div>
-                <div style={{ padding:16, background:coastal.sand }}>
-                  <div className="muted" style={{ fontSize:12, marginBottom:8 }}>After</div>
-                  <div style={{ aspectRatio:"16/9", background:coastal.sea, borderRadius:12, display:"flex", alignItems:"center", justifyContent:"center", color:"#0f172a" }}>Styled — {s}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+    <div className="grid grid-3">
+  {[
+    { title: "Coastal Living Room", before: "/portfolio/living1-before.jpg",  after: "/portfolio/living1-after.jpg" },
+    { title: "Dining Room Refresh", before: "/portfolio/dining1-before.jpg",  after: "/portfolio/dining1-after.jpg" },
+    { title: "Primary Suite",       before: "/portfolio/bedroom1-before.jpg", after: "/portfolio/bedroom1-after.jpg" },
+    // To add more: { title: "Study Update", before: "/portfolio/study1-before.jpg", after: "/portfolio/study1-after.jpg" },
+  ].map((item, i) => (
+    <div key={i} className="card" style={{ overflow: "hidden" }}>
+      <div style={{ padding: 16, background: "#f1f5f9" }}>
+        <div className="muted" style={{ fontSize: 12, marginBottom: 8 }}>Before</div>
+        <img
+          src={item.before}
+          alt={`${item.title} — before`}
+          style={{ width: "100%", borderRadius: 12, display: "block" }}
+          loading="lazy"
+        />
+      </div>
+      <div style={{ padding: 16, background: "#F6EFE7" }}>
+        <div className="muted" style={{ fontSize: 12, marginBottom: 8 }}>After</div>
+        <img
+          src={item.after}
+          alt={`${item.title} — after`}
+          style={{ width: "100%", borderRadius: 12, display: "block" }}
+          loading="lazy"
+        />
+      </div>
+      <div style={{ padding: 12, borderTop: "1px solid #e5e7eb", textAlign: "center", fontWeight: 700, color: "#173A5E" }}>
+        {item.title}
+      </div>
+    </div>
+  ))}
+</div>
+
 
       {/* Pricing */}
       <section id="pricing" className="section">
