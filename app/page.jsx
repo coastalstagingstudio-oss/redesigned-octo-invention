@@ -247,7 +247,6 @@ p.muted{color:#475569}
           </div>
         </div>
       </section>
-
       {/* Order & Pay */}
       <section id="order" className="section" style={{ background:coastal.sand }}>
         <div className="container">
